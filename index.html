@@ -1,23 +1,262 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>OrganicMarket</title>
     <script src="JS.js"></script>
+    <script src="tailwind (1).js"></script>
 </head>
-<body>
-    <!-- landing page -->
 
+<body>
+    <!-- بخش نظرات -->
+    <section class="bg-[#10B981] py-11 px-4 text-center text-white">
+        <h2 class="text-3xl md:text-4xl font-bold mb-7">Loved by Thousands</h2>
+
+        <!-- باکس کارت‌ها -->
+        <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-6">
+
+            <!-- کارت ۱ -->
+            <div class="bg-white/20 backdrop-blur-sm p-6 rounded-2xl flex items-center justify-center gap-2">
+                <span class="text-white">★★★★★</span>
+                <p class="text-sm font-medium">Amazing design and quality.</p>
+            </div>
+
+            <!-- کارت ۲ -->
+            <div class="bg-white/20 backdrop-blur-sm p-6 rounded-2xl flex items-center justify-center gap-2">
+                <span class="text-white">★★★★★</span>
+                <p class="text-sm font-medium">Fresh every time.</p>
+            </div>
+
+            <!-- کارت ۳ -->
+            <div class="bg-white/20 backdrop-blur-sm p-6 rounded-2xl flex items-center justify-center gap-2">
+                <span class="text-white">★★★★★</span>
+                <p class="text-sm font-medium">Fast delivery.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- بخش فوتر (Footer) -->
+    <footer class="bg-[#0F172A] text-white pt-10 pb-2 px-8">
+        <div class="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-10">
+
+            <div>
+                <h3 class="font-bold mb-4">OrganicMarket</h3>
+                <p class="text-gray-400 text-sm">Premium organic products.</p>
+            </div>
+
+            <div>
+                <h3 class="font-bold mb-4">Shop</h3>
+                <ul class="text-gray-400 text-sm space-y-2">
+                    <li><a href="#" class="hover:text-white">Vegetables</a></li>
+                    <li><a href="#" class="hover:text-white">Fruits</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h3 class="font-bold mb-4">Support</h3>
+                <ul class="text-gray-400 text-sm space-y-2">
+                    <li><a href="#" class="hover:text-white">FAQ</a></li>
+                    <li><a href="#" class="hover:text-white">Contact</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h3 class="font-bold mb-4">Newsletter</h3>
+                <div class="flex flex-col gap-2">
+                    <input type="email" placeholder="Email"
+                        class="bg-white text-gray-900 px-4 py-2 rounded-md focus:outline-none focus:ring-2 focus:ring-emerald-500">
+                </div>
+            </div>
+
+        </div>
+
+        <div class="text-center text-white text-xs mt-7 pt-4 border-t border-gray-800">
+            <span>© 2026 OrganicMarket</span>
+        </div>
+    </footer>
+
+    <!-- landing page -->
+<header class="bg-[linear-gradient(303deg,_rgba(254,254,254,1)_37%,_rgba(142,240,177,1)_100%)]">
+    <nav class="fixed top-0 left-0 right-0 z-50 flex items-center justify-between w-full px-4 py-3 bg-[linear-gradient(303deg,_rgba(254,254,254,1)_37%,_rgba(142,240,177,1)_100%)] md:p-4 md:pr-7">
+        <p class="text-lg sm:text-xl md:text-2xl font-extrabold text-[#127e3b] whitespace-nowrap">
+            Organic Market
+        </p>
+
+        <div class="flex items-center gap-3 sm:gap-4 md:gap-6 ">
+            <a class="hidden md:block hover:text-[#127e3b] hover:underline hover:font-bold" href="">Home</a>
+            <a class="hidden md:block hover:text-[#127e3b] hover:underline hover:font-bold" href="">Shop</a>
+            <a class="hidden md:block hover:text-[#127e3b] hover:underline hover:font-bold" href="">About</a>
+
+            <span class="relative">
+                <img class="w-8 h-8 sm:w-9 sm:h-9 md:w-auto md:h-auto rounded hover:bg-[#ace0be]" src="assets/image/shoppingcartcheckout.png" alt="cart">
+                <span id="cardConter"
+                      class="absolute -top-1 -right-1 md:top-4 md:right-4  text-[10px] sm:text-xs md:text-sm text-center bg-[#15a249] w-4 h-4 sm:w-5 sm:h-5 rounded-full flex items-center justify-center text-white">
+                    1
+                </span>
+            </span>
+        </div>
+    </nav>
+
+    <div class="flex flex-col md:flex-row items-center px-4 pt-24 pb-10 md:px-4 md:py-12 md:mt-8 gap-8">
+        <div class="w-full md:w-1/2 flex flex-col gap-4 text-center md:text-left">
+            <p class="bg-[#fefefe] px-3 py-1 rounded-full text-xs sm:text-sm w-fit mx-auto md:mx-0">
+                🌱 100% Natural & Organic
+            </p>
+
+            <p class="text-3xl sm:text-4xl md:text-6xl font-extrabold leading-tight max-w-xl mx-auto md:mx-0">
+                Healthy Living Starts With Fresh Food
+            </p>
+
+            <p class="text-sm sm:text-base md:text-lg text-gray-700 max-w-md mx-auto md:mx-0">
+                Premium organic groceries delivered to your doorstep
+            </p>
+
+            <div class="flex flex-col sm:flex-row gap-3 sm:gap-4 md:gap-8 justify-center md:justify-start">
+                <button id="shopNowBtn"
+                    class="w-full sm:w-auto px-8 py-3 bg-[#fefefe] rounded-xl shadow-md hover:bg-[#127e3b] hover:text-[#fefefe] transition duration-300">
+                    Shop now
+                </button>
+                <button id="explorBtn"
+                    class="w-full sm:w-auto px-8 py-3 bg-[#fefefe] rounded-xl shadow-md hover:bg-[#127e3b] hover:text-[#fefefe] transition duration-300">
+                    Explore
+                </button>
+            </div>
+
+            <div class="grid grid-cols-3 gap-4 sm:gap-8 mt-2 md:mt-0">
+                <span class="text-center">
+                    <p class="text-2xl sm:text-3xl md:text-4xl font-semibold">50K+</p>
+                    <p class="text-xs sm:text-sm text-gray-700">Customers</p>
+                </span>
+                <span class="text-center">
+                    <p class="text-2xl sm:text-3xl md:text-4xl font-semibold">500+</p>
+                    <p class="text-xs sm:text-sm text-gray-700">Products</p>
+                </span>
+                <span class="text-center">
+                    <p class="text-2xl sm:text-3xl md:text-4xl font-semibold">4.9★</p>
+                    <p class="text-xs sm:text-sm text-gray-700">Rating</p>
+                </span>
+            </div>
+        </div>
+
+        <div class="w-full md:w-1/2 flex justify-center">
+            <img class="rounded-3xl w-full max-w-md md:max-w-none object-cover" src="assets/image/bannerImg.jpg" alt="banner">
+        </div>
+    </div>
+</header>  
 
     <!-- Best Cellers-->
+     
+    <div class=" min-h-screen p-24 ">
+        <div class="max-w-7xl mx-auto bg-[#f3f3f3] p-6 md: p-4">
+            <h2 class="text-xl font-bold text-gray-800 mb-6 ml-2">Best Sellers</h2>
+
+
+            <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
+
+                <!-- Product Card 1 -->
+                <div class="bg-white rounded-3xl p-3 shadow-sm border border-gray-100">
+                    <img src="https://s3.thr1.sotoon.ir/media-fast-1/server_files/9cc32fea-7c64-49ee-9d00-b3b32341557a.png" alt="Product"
+                        class="w-full h-32 object-cover rounded-2xl mb-2">
+                    <p class="text-[10px] text-gray-400 font-medium uppercase tracking-tight">Organic</p>
+                    <h3 class="text-sm font-semibold text-gray-700">Product 1</h3>
+                    <p class="text-green-600 font-bold text-sm mt-1">$ 11</p>
+                </div>
+
+                <!-- Product Card 2 -->
+                <div class="bg-white rounded-3xl p-3 shadow-sm border border-gray-100">
+                    <img src="https://s3.thr1.sotoon.ir/media-fast-1/server_files/af9ad42a-10a9-4730-9135-7e926c12f679.png" alt="Product"
+                        class="w-full h-32 object-cover rounded-2xl mb-2">
+                    <p class="text-[10px] text-gray-400 font-medium uppercase tracking-tight">Organic</p>
+                    <h3 class="text-sm font-semibold text-gray-700">Product 2</h3>
+                    <p class="text-green-600 font-bold text-sm mt-1">$ 12</p>
+                </div>
+
+                <!-- Product Card 3 -->
+                <div class="bg-white rounded-3xl p-3 shadow-sm border border-gray-100">
+                    <img src="https://s3.thr1.sotoon.ir/media-fast-1/server_files/8e4fb4f1-33c3-48e9-a60e-133005f9a0ed.png" alt="Product"
+                        class="w-full h-32 object-cover rounded-2xl mb-2">
+                    <p class="text-[10px] text-gray-400 font-medium uppercase tracking-tight">Organic</p>
+                    <h3 class="text-sm font-semibold text-gray-700">Product 3</h3>
+                    <p class="text-green-600 font-bold text-sm mt-1">$ 13</p>
+                </div>
+
+                <!-- Product Card 4 -->
+                <div class="bg-white rounded-3xl p-3 shadow-sm border border-gray-100">
+                    <img src="https://s3.thr1.sotoon.ir/media-fast-1/server_files/7e236084-2f93-4074-8328-67ebc81d49cf.png" alt="Product"
+                        class="w-full h-32 object-cover rounded-2xl mb-2">
+                    <p class="text-[10px] text-gray-400 font-medium uppercase tracking-tight">Organic</p>
+                    <h3 class="text-sm font-semibold text-gray-700">Product 4</h3>
+                    <p class="text-green-600 font-bold text-sm mt-1">$ 14</p>
+                </div>
+
+                <!-- Product Card 5 -->
+                <div class="bg-white rounded-3xl p-3 shadow-sm border border-gray-100">
+                    <img src="https://s3.thr1.sotoon.ir/media-fast-1/server_files/f27b2d1c-4a93-4e87-9fd1-a52659fb0014.png" alt="Product"
+                        class="w-full h-32 object-cover rounded-2xl mb-2">
+                    <p class="text-[10px] text-gray-400 font-medium uppercase tracking-tight">Organic</p>
+                    <h3 class="text-sm font-semibold text-gray-700">Product 5</h3>
+                    <p class="text-green-600 font-bold text-sm mt-1">$ 15</p>
+                </div>
+
+                <!-- Product Card 6 -->
+                <div class="bg-white rounded-3xl p-3 shadow-sm border border-gray-100">
+                    <img src="https://s3.thr1.sotoon.ir/media-fast-1/server_files/f27b2d1c-4a93-4e87-9fd1-a52659fb0014.png" alt="Product"
+                        class="w-full h-32 object-cover rounded-2xl mb-2">
+                    <p class="text-[10px] text-gray-400 font-medium uppercase tracking-tight">Organic</p>
+                    <h3 class="text-sm font-semibold text-gray-700">Product 6</h3>
+                    <p class="text-green-600 font-bold text-sm mt-1">$ 16</p>
+                </div>
+
+                <!-- Product Card 7 -->
+                <div class="bg-white rounded-3xl p-3 shadow-sm border border-gray-100">
+                    <img src="https://s3.thr1.sotoon.ir/media-fast-1/server_files/7e236084-2f93-4074-8328-67ebc81d49cf.png" alt="Product"
+                        class="w-full h-32 object-cover rounded-2xl mb-2">
+                    <p class="text-[10px] text-gray-400 font-medium uppercase tracking-tight">Organic</p>
+                    <h3 class="text-sm font-semibold text-gray-700">Product 7</h3>
+                    <p class="text-green-600 font-bold text-sm mt-1">$ 17</p>
+                </div>
+
+                <!-- Product Card 8 -->
+                <div class="bg-white rounded-3xl p-3 shadow-sm border border-gray-100">
+                    <img src="https://s3.thr1.sotoon.ir/media-fast-1/server_files/8e4fb4f1-33c3-48e9-a60e-133005f9a0ed.png" alt="Product"
+                        class="w-full h-32 object-cover rounded-2xl mb-2">
+                    <p class="text-[10px] text-gray-400 font-medium uppercase tracking-tight">Organic</p>
+                    <h3 class="text-sm font-semibold text-gray-700">Product 8</h3>
+                    <p class="text-green-600 font-bold text-sm mt-1">$ 18</p>
+                </div>
+
+                <!-- Product Card 9 -->
+                <div class="bg-white rounded-3xl p-3 shadow-sm border border-gray-100">
+                    <img src="https://s3.thr1.sotoon.ir/media-fast-1/server_files/af9ad42a-10a9-4730-9135-7e926c12f679.png" alt="Product"
+                        class="w-full h-32 object-cover rounded-2xl mb-2">
+                    <p class="text-[10px] text-gray-400 font-medium uppercase tracking-tight">Organic</p>
+                    <h3 class="text-sm font-semibold text-gray-700">Product 9</h3>
+                    <p class="text-green-600 font-bold text-sm mt-1">$ 19</p>
+                </div>
+
+                <!-- Product Card 10 -->
+                <div class="bg-white rounded-3xl p-3 shadow-sm border border-gray-100">
+                    <img src="https://s3.thr1.sotoon.ir/media-fast-1/server_files/9cc32fea-7c64-49ee-9d00-b3b32341557a.png" alt="Product"
+                        class="w-full h-32 object-cover rounded-2xl mb-2">
+                    <p class="text-[10px] text-gray-400 font-medium uppercase tracking-tight">Organic</p>
+                    <h3 class="text-sm font-semibold text-gray-700">Product 10</h3>
+                    <p class="text-green-600 font-bold text-sm mt-1">$ 20</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
 
 
     <!-- Explor button-->
 
-    
+
     <!-- Product Details-->
 
 
 </body>
+
 </html>
