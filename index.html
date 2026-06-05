@@ -11,7 +11,73 @@
 
 <body>
     <!-- landing page -->
+<header class="bg-[linear-gradient(303deg,_rgba(254,254,254,1)_37%,_rgba(142,240,177,1)_100%)]">
+    <nav class="fixed top-0 left-0 right-0 z-50 flex items-center justify-between w-full px-4 py-3 bg-[linear-gradient(303deg,_rgba(254,254,254,1)_37%,_rgba(142,240,177,1)_100%)] md:p-4 md:pr-7">
+        <p class="text-lg sm:text-xl md:text-2xl font-extrabold text-[#127e3b] whitespace-nowrap">
+            Organic Market
+        </p>
 
+        <div class="flex items-center gap-3 sm:gap-4 md:gap-6 ">
+            <a class="hidden md:block hover:text-[#127e3b] hover:underline hover:font-bold" href="">Home</a>
+            <a class="hidden md:block hover:text-[#127e3b] hover:underline hover:font-bold" href="">Shop</a>
+            <a class="hidden md:block hover:text-[#127e3b] hover:underline hover:font-bold" href="">About</a>
+
+            <span class="relative">
+                <img class="w-8 h-8 sm:w-9 sm:h-9 md:w-auto md:h-auto rounded hover:bg-[#ace0be]" src="assets/image/shoppingcartcheckout.png" alt="cart">
+                <span id="cardConter"
+                      class="absolute -top-1 -right-1 md:top-4 md:right-4  text-[10px] sm:text-xs md:text-sm text-center bg-[#15a249] w-4 h-4 sm:w-5 sm:h-5 rounded-full flex items-center justify-center text-white">
+                    1
+                </span>
+            </span>
+        </div>
+    </nav>
+
+    <div class="flex flex-col md:flex-row items-center px-4 pt-24 pb-10 md:px-4 md:py-12 md:mt-8 gap-8">
+        <div class="w-full md:w-1/2 flex flex-col gap-4 text-center md:text-left">
+            <p class="bg-[#fefefe] px-3 py-1 rounded-full text-xs sm:text-sm w-fit mx-auto md:mx-0">
+                🌱 100% Natural & Organic
+            </p>
+
+            <p class="text-3xl sm:text-4xl md:text-6xl font-extrabold leading-tight max-w-xl mx-auto md:mx-0">
+                Healthy Living Starts With Fresh Food
+            </p>
+
+            <p class="text-sm sm:text-base md:text-lg text-gray-700 max-w-md mx-auto md:mx-0">
+                Premium organic groceries delivered to your doorstep
+            </p>
+
+            <div class="flex flex-col sm:flex-row gap-3 sm:gap-4 md:gap-8 justify-center md:justify-start">
+                <button id="shopNowBtn"
+                    class="w-full sm:w-auto px-8 py-3 bg-[#fefefe] rounded-xl shadow-md hover:bg-[#127e3b] hover:text-[#fefefe] transition duration-300">
+                    Shop now
+                </button>
+                <button id="explorBtn"
+                    class="w-full sm:w-auto px-8 py-3 bg-[#fefefe] rounded-xl shadow-md hover:bg-[#127e3b] hover:text-[#fefefe] transition duration-300">
+                    Explore
+                </button>
+            </div>
+
+            <div class="grid grid-cols-3 gap-4 sm:gap-8 mt-2 md:mt-0">
+                <span class="text-center">
+                    <p class="text-2xl sm:text-3xl md:text-4xl font-semibold">50K+</p>
+                    <p class="text-xs sm:text-sm text-gray-700">Customers</p>
+                </span>
+                <span class="text-center">
+                    <p class="text-2xl sm:text-3xl md:text-4xl font-semibold">500+</p>
+                    <p class="text-xs sm:text-sm text-gray-700">Products</p>
+                </span>
+                <span class="text-center">
+                    <p class="text-2xl sm:text-3xl md:text-4xl font-semibold">4.9★</p>
+                    <p class="text-xs sm:text-sm text-gray-700">Rating</p>
+                </span>
+            </div>
+        </div>
+
+        <div class="w-full md:w-1/2 flex justify-center">
+            <img class="rounded-3xl w-full max-w-md md:max-w-none object-cover" src="assets/image/bannerImg.jpg" alt="banner">
+        </div>
+    </div>
+</header>  
 
     <!-- Best Cellers-->
      
