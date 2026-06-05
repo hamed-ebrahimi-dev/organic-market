@@ -1,23 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>OrganicMarket</title>
     <script src="JS.js"></script>
 </head>
-<body>
-    <!-- landing page -->
+<body class="bg-slate-50 p-4 md:p-10">
 
+    <div class="max-w-5xl mx-auto">
+        
+        <div class="flex flex-col md:flex-row gap-8">
+            
+            <div class="flex flex-col gap-3 w-full md:w-1/2">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUVlPcVb_38m6BaUOV8qfA4zuQwPtS43SQxg&s" class="w-full h-80 object-cover rounded-3xl">
+                <div class="flex  gap-2">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUVlPcVb_38m6BaUOV8qfA4zuQwPtS43SQxg&s" class="w-1/4 h-20 rounded-lg object-cover">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUVlPcVb_38m6BaUOV8qfA4zuQwPtS43SQxg&s" class="w-1/4 h-20 rounded-lg object-cover">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUVlPcVb_38m6BaUOV8qfA4zuQwPtS43SQxg&s" class="w-1/4 h-20 rounded-lg object-cover">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUVlPcVb_38m6BaUOV8qfA4zuQwPtS43SQxg&s" class="w-1/4 h-20 rounded-lg object-cover">
+                </div>
+            </div>
 
-    <!-- Best Cellers-->
+            <div class="w-full md:w-1/2">
+                <span class="text-green-600 bg-green-100 px-3 py-1 rounded-full text-sm font-medium">Organic Collection</span>
+                <h1 class="text-4xl font-bold mt-3">Organic Avocado</h1>
+                <p class="text-2xl text-green-700 font-bold mt-2">$24.99</p>
+                <p class="text-gray-500 mt-4 leading-relaxed">Premium organic avocado with rich nutrition and fresh taste.</p>
 
+                <div class="flex items-center gap-4 my-6">
+                    <div class="flex border border-gray-300 rounded-lg overflow-hidden">
+                        <button class="px-4 py-2 hover:bg-gray-100">-</button>
+                        <span class="px-6 py-2 border-x border-gray-300">1</span>
+                        <button class="px-4 py-2 hover:bg-gray-100">+</button>
+                    </div>
+                </div>
 
-    <!-- Explor button-->
+                <button class="bg-green-700 text-white w-full md:w-48 py-3 rounded-xl font-semibold hover:bg-green-800 transition">Add To Cart</button>
 
-    
-    <!-- Product Details-->
+                <div class="mt-8 p-5 bg-white border border-gray-100 rounded-2xl shadow-sm">
+                    <h3 class="font-bold mb-2">Product Details</h3>
+                    <p class="text-sm text-gray-600">Rich in vitamins, sustainably sourced and freshly delivered.</p>
+                </div>
+            </div>
+        </div>
 
+        <div class="mt-12">
+            <h2 class="text-2xl font-bold mb-6">Customer Reviews</h2>
+            <div class="flex flex-col gap-4">
+                <div class="bg-white p-4 rounded-xl border border-gray-100 shadow-sm text-sm">
+                    <span class="text-yellow-400">★★★★★</span>
+                    <p class="mt-1">Amazing quality and taste.</p>
+                </div>
+                <div class="bg-white p-4 rounded-xl border border-gray-100 shadow-sm text-sm">
+                    <span class="text-yellow-400">★★★★★</span>
+                    <p class="mt-1">Delivery was very fast.</p>
+                </div>
+                <div class="bg-white p-4 rounded-xl border border-gray-100 shadow-sm text-sm">
+                    <span class="text-yellow-400">★★★★☆</span>
+                    <p class="mt-1">Fresh and affordable.</p>
+                </div>
+            </div>
+        </div>
 
+    </div>
 </body>
 </html>
