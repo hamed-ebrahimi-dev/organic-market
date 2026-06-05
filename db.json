@@ -1,0 +1,184 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Organic Apple",
+      "brand": "Apple",
+      "category": "Organic",
+      "price": 12,
+      "popular": true,
+      "image": "https://picsum.photos/300/200?1"
+    },
+    {
+      "id": 2,
+      "title": "Fresh Carrot",
+      "brand": "Samsung",
+      "category": "Vegetables",
+      "price": 24,
+      "popular": false,
+      "image": "https://picsum.photos/300/200?2"
+    },
+    {
+      "id": 3,
+      "title": "Orange Juice",
+      "brand": "Xiaomi",
+      "category": "Fruits",
+      "price": 18,
+      "popular": true,
+      "image": "https://picsum.photos/300/200?3"
+    },
+    {
+      "id": 4,
+      "title": "Banana Pack",
+      "brand": "Apple",
+      "category": "Fruits",
+      "price": 8,
+      "popular": false,
+      "image": "https://picsum.photos/300/200?4"
+    },
+    {
+      "id": 5,
+      "title": "Tomato Basket",
+      "brand": "Samsung",
+      "category": "Vegetables",
+      "price": 15,
+      "popular": true,
+      "image": "https://picsum.photos/300/200?5"
+    },
+    {
+      "id": 6,
+      "title": "Organic Milk",
+      "brand": "Xiaomi",
+      "category": "Organic",
+      "price": 18,
+      "popular": true,
+      "image": "https://picsum.photos/300/200?6"
+    },
+    {
+      "id": 7,
+      "title": "Fresh Lemon",
+      "brand": "Apple",
+      "category": "Fruits",
+      "price": 29,
+      "popular": true,
+      "image": "https://picsum.photos/300/200?7"
+    },
+    {
+      "id": 8,
+      "title": "Green Pepper",
+      "brand": "Samsung",
+      "category": "Vegetables",
+      "price": 1,
+      "popular": false,
+      "image": "https://picsum.photos/300/200?8"
+    },
+    {
+      "id": 9,
+      "title": "Organic Honey",
+      "brand": "Xiaomi",
+      "category": "Organic",
+      "price": 30,
+      "popular": true,
+      "image": "https://picsum.photos/300/200?9"
+    },
+    {
+      "id": 10,
+      "title": "Strawberry Box",
+      "brand": "Apple",
+      "category": "Fruits",
+      "price": 28,
+      "popular": false,
+      "image": "https://picsum.photos/300/200?10"
+    },
+    {
+      "id": 11,
+      "title": "Potato Sack",
+      "brand": "Samsung",
+      "category": "Vegetables",
+      "price": 1,
+      "popular": true,
+      "image": "https://picsum.photos/300/200?11"
+    },
+    {
+      "id": 12,
+      "title": "Organic Eggs",
+      "brand": "Xiaomi",
+      "category": "Organic",
+      "price": 17,
+      "popular": false,
+      "image": "https://picsum.photos/300/200?12"
+    },
+    {
+      "id": 13,
+      "title": "Watermelon",
+      "brand": "Apple",
+      "category": "Fruits",
+      "price": 343,
+      "popular": false,
+      "image": "https://picsum.photos/300/200?13"
+    },
+    {
+      "id": 14,
+      "title": "Broccoli",
+      "brand": "Samsung",
+      "category": "Vegetables",
+      "price": 11,
+      "popular": false,
+      "image": "https://picsum.photos/300/200?14"
+    },
+    {
+      "id": 15,
+      "title": "Organic Bread",
+      "brand": "Xiaomi",
+      "category": "Organic",
+      "price": 3,
+      "popular": false,
+      "image": "https://picsum.photos/300/200?15"
+    },
+    {
+      "id": 16,
+      "title": "Pineapple",
+      "brand": "Apple",
+      "category": "Fruits",
+      "price": 19,
+      "popular": false,
+      "image": "https://picsum.photos/300/200?16"
+    },
+    {
+      "id": 17,
+      "title": "Cucumber",
+      "brand": "Samsung",
+      "category": "Vegetables",
+      "price": 232,
+      "popular": false,
+      "image": "https://picsum.photos/300/200?17"
+    },
+    {
+      "id": 18,
+      "title": "Organic Cheese",
+      "brand": "Xiaomi",
+      "category": "Organic",
+      "price": 22,
+      "popular": false,
+      "image": "https://picsum.photos/300/200?18"
+    },
+    {
+      "id": 19,
+      "title": "Mango",
+      "brand": "Apple",
+      "category": "Fruits",
+      "price": 11,
+      "popular": false,
+      "image": "https://picsum.photos/300/200?19"
+    },
+    {
+      "id": 20,
+      "title": "Onion Pack",
+      "brand": "Samsung",
+      "category": "Vegetables",
+      "price": 77,
+      "popular": false,
+      "image": "https://picsum.photos/300/200?20"
+    }
+  ]
+}
